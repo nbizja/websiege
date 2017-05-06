@@ -1,0 +1,10 @@
+openvas.host: '127.0.0.1'
+openvas.port: '9390'
+openvas.username: 'nejc'
+openvas.password: '112358'
+
+openvas:
+  host: '127.0.0.1'
+  port: '9390'
+  username: 'nejc'
+  password: '112358'
