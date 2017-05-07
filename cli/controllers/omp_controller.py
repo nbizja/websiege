@@ -10,9 +10,7 @@ class OmpController(AbstractBaseController):
         stacked_type = 'nested'
 
     def _setup(self, app):
-        super(CementBaseController, self)._setup(app)
-
-        # add a common object that will be used in any sub-class
+        super(AbstractBaseController, self)._setup(app)
 
         self.omp = Omp(app.config.get_section_dict('openvas'))
 
